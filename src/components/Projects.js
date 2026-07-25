@@ -9,7 +9,7 @@ const projects = [
 {
   title: "Pet Care System : Adoption & E-Commerce Platform",
 
-  image: "/images/pet1.png",
+  image: "/images/pet1.PNG",
 
   description:
   "A Full Stack MERN platform for pet adoption and e-commerce management, providing users with a complete solution to browse, adopt pets, and manage online products.",
@@ -28,7 +28,7 @@ const projects = [
 {
   title: "MERN Full Stack Application",
 
-  image: "/images/mern1.png",
+  image: "/images/mern1.PNG",
 
   description:
   "A Full Stack web application built with a client-server architecture, featuring dynamic data management through RESTful APIs and efficient communication between the frontend and backend.",
@@ -46,7 +46,7 @@ const projects = [
 {
   title: "React Router Project",
 
-  image: "/images/movies.png",
+  image: "/images/movies.PNG",
 
   description:
     "A React application demonstrating client-side routing with React Router, enabling seamless navigation between multiple pages without reloading the application.",
@@ -61,7 +61,7 @@ const projects = [
 {
   title: "React Props Project",
 
-  image: "/images/fifa.png",
+  image: "/images/fifa.PNG",
 
   description:
     "A React application demonstrating component-based architecture and data sharing using props to create reusable and dynamic user interfaces.",
