@@ -1,0 +1,142 @@
+.home {
+    min-height: calc(100vh - 80px); /* Ajuste selon la hauteur de la Navbar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 5%; /* Supprime le padding vertical excessif */
+    box-sizing: border-box;
+}
+
+/* Contenu centré */
+.home-content {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto; /* Force le centrage au milieu du composant */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Hello */
+.home h3 {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Nom */
+.home h1 {
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.home h1 span {
+    color: #e77aa8;
+}
+
+/* Titre */
+.home h2 {
+    font-size: 32px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.home p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+/* Boutons */
+.home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 35px;
+    width: 100%;
+}
+
+.btn {
+    background: #f2a7c3;
+    color: white;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #d96b9b;
+    transform: translateY(-3px);
+}
+
+.btn-outline {
+    border: 2px solid #f2a7c3;
+    color: #e77aa8;
+    padding: 12px 35px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-outline:hover {
+    background: #f8a8c8;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* Réseaux sociaux */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.social-icons a {
+    font-size: 32px;
+    color: #e77aa8;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #d96b9b;
+    transform: translateY(-5px);
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+    .home {
+        min-height: calc(100vh - 120px);
+        padding: 40px 5%;
+    }
+
+    .home h1 {
+        font-size: 40px;
+    }
+
+    .home h2 {
+        font-size: 24px;
+    }
+
+    .home p {
+        font-size: 16px;
+    }
+
+    .home-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn,
+    .btn-outline {
+        width: 220px;
+    }
+}

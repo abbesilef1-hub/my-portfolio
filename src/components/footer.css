@@ -1,0 +1,64 @@
+.footer {
+
+    background: #f8a8c8;
+    color: white;
+    text-align: center;
+    padding: 40px 10%;
+
+}
+
+
+.footer h3 {
+
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+
+.footer p {
+
+    font-size: 17px;
+
+}
+
+
+
+/* Réseaux sociaux */
+.socials {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 25px 0;
+
+}
+
+
+.socials a {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+
+.socials a:hover {
+
+    color: #e77aa8;
+    transform: translateY(-3px);
+
+}
+
+
+/* Copyright */
+.copyright {
+
+    margin-top: 20px;
+    font-size: 14px;
+
+}
